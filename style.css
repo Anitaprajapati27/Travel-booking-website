@@ -1,0 +1,124 @@
+body{
+    background: #001721;
+}
+header {
+    background-color: #001721;
+    color: #fff;
+    padding: 10px 20px;
+    text-align: center;
+}
+.hero-content h1 {
+    font-size: 3em;
+    margin-bottom: 10px;
+}
+
+.hero-content .button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color:white;
+    color:black;
+    text-decoration: none;
+    margin-top: 20px;
+    transition: all 0.14s linear;
+    cursor: pointer;
+}
+.hero-content .button:hover{
+    border: 1px solid white;
+    background-color: #001721;
+    color: white;
+}
+
+.package {
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    margin: 20px;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 0 10px #001721;
+}
+
+.package img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.package h2 {
+    margin-top: 15px;
+}
+/* body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+} */
+
+#hero {
+    color: #333;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.hero-content {
+    color: white;
+    font-weight: 100;
+    padding-left: 40px;
+    flex: 1;
+}
+
+.hero-image {
+    flex: 1;
+    padding-left: 20px;
+}
+
+.hero-image img {
+    max-width: 500px; /* Adjust the size as needed */
+    border-radius: 10px;
+}
+.tag{
+    color: white;
+    padding-left: 86%;
+}
+/* body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f5f5f5;
+} */
+/* header {
+    background-color: #333;
+    color: #fff;
+    padding: 1rem;
+    text-align: center;
+} */
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+nav ul li {
+    margin: 0 15px;
+}
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.2rem;
+}
+#packages {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 2rem 0;
+}
+.package {
+    border: 2px solid #ddd;
+    border-radius: 8px;
+    overflow: hidden;
+    margin: 1rem;
+    width: 30%;
+    background-color: #fff;
+    transition: background-color 0.3s;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
